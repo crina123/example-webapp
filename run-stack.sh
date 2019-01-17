@@ -1,5 +1,3 @@
-#!/bin/bash
-
 aws cloudformation create-stack \
     --region us-east-2 \
     --stack-name production \
