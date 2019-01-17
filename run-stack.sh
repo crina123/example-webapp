@@ -9,4 +9,4 @@ aws cloudformation $ACTION \
     ParameterKey=DockerImage,ParameterValue=191414186247.dkr.ecr.us-east-2.amazonaws.com/example-webapp:$(git rev-parse HEAD) \
     ParameterKey=VPC,ParameterValue=vpc-2736394f \
     ParameterKey=Cluster,ParameterValue=default2 \
-    ParameterKey=Listener,ParameterValue=arn:aws:elasticloadbalancing:us-east-2:191414186247:loadbalancer/app/production-website/b78d88e35ba11784
+    ParameterKey=Listener,ParameterValue=arn:aws:elasticloadbalancing:us-east-2:191414186247:loadbalancer/app/production-website2/9d5f383fe8c7df05
