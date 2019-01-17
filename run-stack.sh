@@ -1,8 +1,8 @@
 #!/bin/bash
 
-aws cloudformation $ACTION \
+aws cloudformation create-stack \
     --region us-east-2 \
-    --stack-name $STACK_NAME \
+    --stack-name production \
     --template-body file://service.yaml \
     --capabilities CAPABILITY_NAMED_IAM \
     --parameters \
